@@ -1,0 +1,85 @@
+.card {
+  width: 18rem;
+  margin: 10px 0 10px 0;
+}
+
+.container.pokedex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.load-more {
+  margin-bottom: 20px;
+}
+
+/* Search */
+
+.search-input input {
+  width: 100%;
+}
+
+.search-input>input::placeholder {
+  content: "Search Pokemon by name...";
+}
+
+.card button>a:hover {
+  color: white;
+}
+
+.search-input input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.search-input>input:focus{
+  border: none !important;
+  box-shadow: none;
+}
+
+/* Links */
+
+a {
+  color: white;
+}
+
+/* Pokemon Details */
+
+.pokemon-details-img {
+  width: 50%;
+}
+
+/* Img */
+
+.pokemon-type-item p {
+  margin-right: 10px;
+  display: inline;
+}
+
+.pokemon-type-item img {
+  width: 25px;
+}
+
+/* Modal Component */
+
+.modal-wrapper {
+  display: inline;
+}
+
+/* Pokemon Types */
+
+.pokemon-type-list button {
+  width: 250px;
+  margin-bottom: 15px;
+}
+
+.btn-outline-success a {
+  color: #28a745;
+}
+
+.btn-outline-success:hover > a {
+  color: white !important;
+}
